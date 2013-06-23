@@ -1,0 +1,332 @@
+
+# # # # # # # # # # # # # # # #
+#                             #
+#  ######  #       #  #    #  #
+#    #      #     #    #  #   #
+#    #       #   #      ##    #
+#    #        # #      #  #   #
+#    #         #      #    #  #
+#                             #
+# # # # # # # # # # # # # # # #
+
+# TvX, 1 base medivac rush
+# 
+# The idea is to get a medivac + marines, as fast as possible, so you can drop
+# before your opponent is prepared for drops.
+# 
+# The mobility of the medivac is what makes this powerful, by allowing you to
+# avoid what forces they have, and also go straight for workers.
+# 
+
+    @8  ~ cut SCVs ~
+    @8  Supply
+    @8  Barracks
+    @8  gas
+
+    ~ continue SCV production ~
+
+   100g factory
+            # in a perfect world, it should come down at 2:20
+            # I don't know if that is possible though : (
+
+        2x marine
+   100g starport
+
+    @18 supply
+    @18 ~ skip an SCV ~
+
+# # # # # # # # # # # # # # # #
+#                             #
+#  ######  #       #  ######  #
+#    #      #     #     #     #
+#    #       #   #      #     #
+#    #        # #       #     #
+#    #         #        #     #
+#                             #
+# # # # # # # # # # # # # # # #
+
+# TvT, 1 base Nuke/Hellion
+
+    @10 Supply
+    @12 Gas
+    @13 Barracks
+
+        CC -> Orbital
+     1x Marine
+
+   100g Factory
+        Barracks -> Reactor
+        Supply Depot
+
+        Swap Factory / Barracks
+        Barracks -> Tech Lab
+        Ghost Academy
+        Supply Depot
+        
+    ~ constant hellion production ~
+
+        Supply Depot
+     1x Ghost
+        Nuke
+
+    when Ghost -> PUSH!
+
+    ~ expand ~
+        
+# TvZ, Blue Flame Hellion
+
+    @10 Supply
+    @12 Barracks
+        CC -> Orbital
+        1x marine
+
+    ~ no marines until supply ~
+
+    @16 CC
+    @16 gas
+    @16 gas
+    @17 supply
+
+        1x marine
+        Bunker
+
+   100g Factory
+        Barracks -> reactor
+        CC -> Orbital
+
+   100g Factory
+        swap Factory -> barracks reactor
+        Barracks -> Tech Lab
+
+    ~ start on supply wall ~
+
+    ~ start hellion production ~
+
+        swap Factory -> barracks tech lab
+        res Blue Flame
+
+# TvZ, CC first -> Hellion -> Bio
+
+    @10 Supply Depot
+    @14 CC
+    @14 Barracks
+
+        2x marines
+   100g factory
+        Barracks -> Reactor
+        Bunker
+        float over CC
+
+        swap factory & barracks
+
+    ~ start hellions until you reach 6 ~
+        
+# TvZ, 1 rax FE -> Tanks -> SkyTerran
+
+    @10 Supply Depot
+    @13 barracks
+    @18 CC on low ground
+        CC -> Orbital
+        Supply Depot
+        1x Marine
+
+        Gas
+        Gas
+
+        Barracks
+        Saturate both Gas
+        Barracks
+
+        Barracks -> Tech Lab
+        Barracks -> Tech Lab (for factory)
+
+        Factory
+        Bunker
+
+        Barracks -> float -> Tech Lab
+
+        Supply Depot
+        CC
+        Engineering Bay
+
+        Factory -> move to -> Tech Lab
+        Barracks -> Reactor
+
+        1x Siege Tank
+        Stim
+        Combat Shield
+        Turrets
+
+        1x Siege Tank
+        Starport
+
+        CC -> Orbital
+        3rd Gas
+        4th Gas
+
+        1x Siege Tank
+        Orbital -> Third
+
+        Starport
+        Starport
+
+        ... ravens ...
+
+        4th CC
+
+# # # # # # # # # # # # # # # #
+#                             #
+#  ######  #       #  ######  #
+#    #      #     #   #    #  #
+#    #       #   #    ######  #
+#    #        # #     #       #
+#    #         #      #       #
+#                             #
+# # # # # # # # # # # # # # # #
+
+# TvP, 1/1/1 fast marine/medivac
+
+    @10 supply depot
+    @13 barracks
+    @13 gas
+
+        Barracks
+
+        1x marine
+        CC -> Orbital
+        supply depot
+
+   100g Factory
+        1x marine
+
+    50g Barracks -> Reactor
+        supply depot
+        2x marine
+
+        Starport
+
+        1x medivac
+
+# 
+# TvP, Ketroc 2 rax poke/push with +1
+#
+# The point of this build is to poke at
+# around 5:30, with a small round of marines
+# and 1 or 2 marauders. This helps you scout,
+# and if they expanded, force an overcharge.
+#
+# The aim is *not* to win then, but to 
+# instead pull back, and come back with stim
+# and more units once the overcharge has ended.
+#
+# You keep denying the natural, multiple
+# times, until you win a big engagement,
+# or have the forces to push up the ramp.
+#
+
+    @10 supply depot
+    @13 barracks
+    @14 gas
+    @15 barracks
+
+        saturate gas
+
+        CC -> Orbital
+        ! 1x Marine
+
+    3:40 SCV Scout
+
+        Barracks -> Reactor
+        Supply Depot
+
+        Barracks -> Tech Lab
+        Supply Depot
+
+        3x Marine
+        Concussive Shell
+
+        2x Marine
+        1x Marauder
+        Supply Depot
+
+        2x Marine
+        1x Marauder
+        Supply Depot
+        Stim
+
+        2nd Gas
+        Supply Depot
+
+        5:30 PUSH!
+
+        ...
+
+# TvP YuMe
+
+    @10 -> Supply (1)
+    @12 -> Rax (1)
+    @12 -> Gas (1)
+
+    @15 -> Supply (2)
+    @15 -> Orbital
+    @15 -> Reaper (1)
+
+    100 Gas -> Factory
+    400 Mins -> CC
+
+    3x Marines
+        -> Then Reactor Rax(1)
+
+    @100% Factory: 
+        | Gas
+        | Gas
+        | Armory
+        | Bunker 
+        | 1x Widow Mine
+
+    @100% Widow Mine(1)
+        -> Reactor Factory
+
+    @100 Gas -> Factory (2)
+    +1 Mech Attack
+
+    ~ constant hellbat production ~
+
+    @100% Factory (2) -> Tech Lab & Factory (3)
+    @100% Factory (3) -> Swap to Rax (1) Reactor
+
+    ~ Siege Tank production ~
+
+    Two Supply Building Constantly
+
+    @3 Tanks -> Push Out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
