@@ -9,31 +9,84 @@
 #                             #
 # # # # # # # # # # # # # # # #
 
-# TvX, 1 base medivac rush
+# TvX, 1 base medivac rush (aggressive)
 # 
 # The idea is to get a medivac + marines, as fast as possible, so you can drop
-# before your opponent is prepared for drops.
+# before your opponent has anything.
 # 
 # The mobility of the medivac is what makes this powerful, by allowing you to
 # avoid what forces they have, and also go straight for workers.
+#
+# This is the aggressive version, which *significantly* hurts your economy,
+# but gets the medivac out 20 seconds earlier.
 # 
 
-    @8  ~ cut SCVs ~
+    @8  ~ cut SCVs
     @8  Supply
-    @8  Barracks
     @8  gas
-
-    ~ continue SCV production ~
+        -> saturate gas
+    @8  Barracks
 
    100g factory
-            # in a perfect world, it should come down at 2:20
-            # I don't know if that is possible though : (
-
         2x marine
    100g starport
+        -> move 1x gas to minerals
+        2x marine
 
-    @18 supply
-    @18 ~ skip an SCV ~
+        1x medivac
+
+        CC -> Orbital
+        Barracks -> Reactor
+
+    ~ PUSH with Medivac drop ~
+
+    100% Orbital:
+        | Supply Depot
+        | MULE CALLDOWN
+        | ~ restart SCV production
+
+    ~ restart marine production ~
+
+# 
+# TvX, 1 base medivac rush
+#
+# A more healthy version of the medivac rush, where the medivac is out a tad
+# later, but the economy is significantly improved, and the barracks reactor
+# is built earlier.
+#
+
+    @11 Supply
+    @11 ~ cut SCV production
+
+    100% Supply:
+        | Barracks
+        | Refinery
+        | Refinery
+
+        1x SCV
+
+    ~ saturate all gas asap ~
+
+    100g Factory,
+        ~ move 3 SCVs from gas to minerals
+        2x Marine
+
+    100g Starport
+        1x Marine
+        CC -> Orbital
+        1x Marine
+
+    100% Starport
+        1x Medivac
+        MULE CALLDOWN
+        Barracks -> Reactor
+
+    ~ PUSH with Medivac drop ~
+
+        Supply
+
+    ~ restart SCV production ~
+    ~ restart Marine production ~
 
 # # # # # # # # # # # # # # # #
 #                             #
