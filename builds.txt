@@ -355,10 +355,37 @@
     @3 Tanks -> Push Out
 
 
-
-
-
-
+    # Terran vs. The Universe: The Overly Enthusiastic Medivac Fiesta
+    # Objective: Why conquer just the map when you can aim for the galaxy? This build ensures your opponent knows you're not just in the game for a win; you're here for a party.
+    
+    @ Start: Immediately forget what you're supposed to do and build a Supply Depot at your opponent's base. They'll never see it coming, mainly because it doesn't make sense.
+    
+    @ Still the Start: Panic because you forgot to produce SCVs. Make up for lost time by talking to your existing SCVs about the importance of hard work and team spirit.
+    
+    @10 Supply: Realize you need a Barracks. Build three instead because you're just that enthusiastic. Place them in a decorative, non-strategic pattern to confuse and possibly mesmerize your opponent.
+    
+    @ Somehow 100 Gas: Start a Factory. Accidentally build it in the corner of your base where it's practically a decorative vase. Pretend that was your plan all along.
+    
+    @ First Sight of Enemy Scout: Greet them warmly. Offer them a tour of your base. Forget you're supposed to be enemies.
+    
+    @ Realization You Need Units: Start producing Marines. Give each one a name and backstory to boost morale.
+    
+    @ Enough Marines to Form a Boy Band: Build a Starport. Launch a Medivac as soon as possible, but fill it with SCVs — they've been working hard and deserve a field trip.
+    
+    @ Medivac Ready: Realize you forgot Marines need to be in the Medivac for the drop to be effective. Improvise by dropping SCVs and constructing a surprise Supply Depot in your opponent's base. It’s a bold move, but someone's got to innovate in this game.
+    
+    @ Surprise Depot Completion: Throw a small party. Invite your opponent. They might destroy the Depot, but in their hearts, they'll appreciate the gesture.
+    
+    Post-Party: Finally remember you're supposed to be fighting. Start producing actual units, but maintain the element of surprise by mixing in random buildings everywhere. Who says you can't have a Barracks at every mineral line?
+    
+    @ Second Thought: Build another Medivac, this time with Marines. But instead of a normal drop, use it to spell out "GG" with Supply Depots across the map because you're all about that sportsmanship.
+    
+    Conclusion: Regardless of the game's outcome, congratulate your opponent on a well-fought battle. You've not only played a StarCraft II match, but you've also spread confusion, joy, and the occasional Supply Depot like no one else.
+    
+    
+    
+    
+    
 
 
 
